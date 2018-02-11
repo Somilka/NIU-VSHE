@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 # input
 print "Enter number a(1;2 dflt)"
 a = input()
@@ -9,7 +12,7 @@ P = input()
 s = 0
 n = 0
 while True:
-    s = s + ( a + n * h )
+    s = s + (a + n * h)
     print str(n) + ":" + str(s)
     if s > P:
         break
