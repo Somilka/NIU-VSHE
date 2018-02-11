@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # parameters
-listLength = 2  # array length
+listLength = 20  # array length
 
 # input...
 
