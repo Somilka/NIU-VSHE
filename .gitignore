@@ -1,0 +1,9 @@
+*.sw?
+*.tmp
+*.bak
+*.exe
+*~
+*_
+node_modules
+tmp
+.ropeproject
