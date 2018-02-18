@@ -9,17 +9,18 @@ a = raw_input("Kirill loh?\n")
 # Проверяем, что возвращает a
 # print type(a), a
 
-p = raw_input("Skolko procentov?\n")
+# Спрашиваем пользователя, сколько процентов Кирилл лох/не лох/другое
+p = raw_input("Skolko procentov" + " " + a + "?\n")
 
 # учитывая ответ, содержащийся в a, выясняем, кто такой Кирилл
 if a == "da":
-    print "Kirill loh", p, "%"
+    print "Kirill loh", p + "%"
 elif a == "net":
-    print "Krill ne loh", p, "%"
+    print "Krill ne loh", p + "%"
 elif a != "net":
     # print "Who is kirill?"
     # b = raw_input("Who is Kirill?\n")
-    print a, p, "%"
+    print a, p + "%"
 
 # p = raw_input("Skolko procentov?\n")
 # print a, p, "%"
