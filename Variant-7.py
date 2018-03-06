@@ -31,3 +31,5 @@ for n in range(count):
 
 # Результат
 print "Summ:", summ
+
+# Проверка git
