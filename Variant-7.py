@@ -29,6 +29,5 @@ for n in range(count):
         # ...добавляем к сумме
         summ += val
 
-
 # Результат
 print "Summ:", summ
