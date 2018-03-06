@@ -31,4 +31,4 @@ for n in range(count):
 
 # Результат
 print "Summ:", summ
-print "maxCount:", maxCount
+print "maxCount: ", maxCount
