@@ -2,6 +2,7 @@
 *.tmp
 *.bak
 *.exe
+*.log
 *~
 *_
 node_modules
