@@ -2,6 +2,7 @@
 *.tmp
 *.bak
 *.exe
+*.log
 *~
 *_
 node_modules
@@ -9,3 +10,4 @@ tmp
 .ropeproject
 .project
 .pydevproject
+.idea

@@ -8,7 +8,7 @@
 # Who is Kirill? v.1
 
 # Спрашиваем пользователя, лох ли Кирилл
-print("Is Kirill a Matthew?")
+print("Is Kirill Matthew?")
 a = raw_input()
 # a = "1"
 
@@ -20,11 +20,11 @@ print("How much percents for " + a + "?")
 p = raw_input()
 
 # учитывая ответ, содержащийся в a, выясняем, кто такой Кирилл
-if a == "Yes":
+if a == "Yes" or "yes":
     print "Kirill is Matvey", p + "%"
-elif a == "No":
+elif a == "No" or "no":
     print "Kirill is kake3000", p + "%"
-elif a != "net":
+elif a != ("No" or "no"):
     # print "Who is kirill?"
     # b = raw_input("Who is Kirill?\n")
     print a, p + "%"
